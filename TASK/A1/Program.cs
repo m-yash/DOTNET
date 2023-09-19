@@ -27,7 +27,7 @@ class Program
 
             float subTotal = (1.50*apple) + (0.50*banana) + (2.50*milk) + (2.50*bread) + (1.75*eggs);
 
-            string receipt;
+            string receipt = "";
             if(apple > 0){
                 receipt += $"Apple x{apple}\n"
             }

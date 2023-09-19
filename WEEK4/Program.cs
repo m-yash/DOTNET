@@ -8,6 +8,18 @@ class Car
     string color = "Black";
     int numberOfKms = 0;
 
+    string type = "Sport";
+
+    public static int numberOfCarsCreated = 0;
+    public Car(){
+        Console.WriteLine("Default Constructor: Sport mode");
+        numberOfCarsCreated += 1;
+    }    
+    public Car(string t){
+        type = t;
+        Console.WriteLine("Overloaded Constructor: casual mode");
+        numberOfCarsCreated += 1;
+    }
     public void accelerate(){
         speed += 1;
 
@@ -30,16 +42,21 @@ class Program
         Console.WriteLine("Car");
         
         Car c1 = new Car();
+
+        Car mode = new Car("Casual");
+
+        
         c1.accelerate();
         c1.accelerate();
         c1.accelerate();
         c1.accelerate();
 
         c1.brake();
-        Console.WriteLine(c1.Speed());
+        Console.WriteLine("speed of cat: "+ c1.Speed() + "kmph");
 
-        Console.WriteLine(c1.Color());
+        Console.WriteLine("color of cat: "+ c1.Color());
 
+        Console.WriteLine("number of cars created: "+ Car.numberOfCarsCreated);
         
     }
 }
