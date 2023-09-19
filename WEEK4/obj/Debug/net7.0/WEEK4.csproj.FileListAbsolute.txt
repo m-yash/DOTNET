@@ -1,0 +1,15 @@
+D:\College\Projects\DOTNET\WEEK4\bin\Debug\net7.0\WEEK4.exe
+D:\College\Projects\DOTNET\WEEK4\bin\Debug\net7.0\WEEK4.deps.json
+D:\College\Projects\DOTNET\WEEK4\bin\Debug\net7.0\WEEK4.runtimeconfig.json
+D:\College\Projects\DOTNET\WEEK4\bin\Debug\net7.0\WEEK4.dll
+D:\College\Projects\DOTNET\WEEK4\bin\Debug\net7.0\WEEK4.pdb
+D:\College\Projects\DOTNET\WEEK4\obj\Debug\net7.0\WEEK4.csproj.AssemblyReference.cache
+D:\College\Projects\DOTNET\WEEK4\obj\Debug\net7.0\WEEK4.GeneratedMSBuildEditorConfig.editorconfig
+D:\College\Projects\DOTNET\WEEK4\obj\Debug\net7.0\WEEK4.AssemblyInfoInputs.cache
+D:\College\Projects\DOTNET\WEEK4\obj\Debug\net7.0\WEEK4.AssemblyInfo.cs
+D:\College\Projects\DOTNET\WEEK4\obj\Debug\net7.0\WEEK4.csproj.CoreCompileInputs.cache
+D:\College\Projects\DOTNET\WEEK4\obj\Debug\net7.0\WEEK4.dll
+D:\College\Projects\DOTNET\WEEK4\obj\Debug\net7.0\refint\WEEK4.dll
+D:\College\Projects\DOTNET\WEEK4\obj\Debug\net7.0\WEEK4.pdb
+D:\College\Projects\DOTNET\WEEK4\obj\Debug\net7.0\WEEK4.genruntimeconfig.cache
+D:\College\Projects\DOTNET\WEEK4\obj\Debug\net7.0\ref\WEEK4.dll

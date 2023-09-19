@@ -1,0 +1,57 @@
+Create a C# console application for a grocery billing system that allows customers to select items, apply a loyalty card discount, and calculate the final cost with tax. 
+
+1. Display predefined grocery (or any store) items along with their prices.  
+
+2. Ask the user if they have a loyalty card (yes/no) 
+
+3. Allow the user to select items by specifying the quantity of each item they want to purchase (enter 0 for none). 
+
+4. Calculate the subtotal for the selected items. 
+
+5. Apply a 10% discount if the user has a loyalty card (yes). 
+
+6. Calculate a 13% tax on the subtotal. 
+
+7. Display a receipt with the selected items, subtotal, tax amount, and the final total after applying the discount and tax. 
+
+Example Output: 
+
+Do you have a loyalty card? (yes/no): yes 
+
+Available Grocery Items: 
+
+Apple - $1.00 
+
+Banana - $0.50 
+
+Milk - $2.50 
+
+Bread - $2.00 
+
+Eggs - $1.75 
+
+Enter the quantity of Apple (0 for none): 2 
+
+Enter the quantity of Banana (0 for none): 0 
+
+Enter the quantity of Milk (0 for none): 3 
+
+Enter the quantity of Bread (0 for none): 1 
+
+Enter the quantity of Eggs (0 for none): 0 
+
+Receipt: 
+
+Apple x2 
+
+Milk x3 
+
+Bread x1 
+
+Subtotal: $13.50 
+
+Tax (13%): $1.76 
+
+Total cost: $14.26 
+
+Ensure that your program handles invalid inputs and calculates the final cost correctly. 
