@@ -14,31 +14,38 @@ class Program
             
 
             Console.WriteLine("Available Grocery Items: \nApple - $1.00 \nBanana - $0.50 \nMilk - $2.50 \nBread - $2.00 \nEggs - $1.75 ");
-            int apple = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter the quantity of Apple (0 for none)");
-            int banana = int.Parse(Console.ReadLine());
+            int apple = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter the quantity of Banana (0 for none)");
-            int milk = int.Parse(Console.ReadLine());
+            int banana = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter the quantity of Milk (0 for none)");
-            int bread = int.Parse(Console.ReadLine());
+            int milk = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter the quantity of Bread (0 for none)");
-            int eggs = int.Parse(Console.ReadLine());
+            int bread = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter the quantity of Eggs (0 for none)");
+            int eggs = int.Parse(Console.ReadLine());
 
-            float subTotal = (1.50*apple) + (0.50*banana) + (2.50*milk) + (2.50*bread) + (1.75*eggs);
 
             string receipt = "";
-            if(apple > 0){
-                receipt += $"Apple x{apple}\n"
-            }
-            else 
-            if(loyalty == "yes"){
+            // if(apple > 0){
+            //     receipt += $"Apple x{apple}\n";
+            // }
+            // else 
+            // if(loyalty == "yes"){
 
-            }
+            // }
             
-            Console.WriteLine("\nReceipt");
+            Console.WriteLine("\nReceipt:");
             Console.WriteLine($"Apple x{apple}\nApple x{apple}\nApple x{apple}\n");
 
+            float subTotal = (float)(1.50*apple) + (float)(0.50*banana) + (float)(2.50*milk) + (float)(2.50*bread) + (float)(1.75*eggs);
+            Console.WriteLine("Subtotal: $"+subTotal);
+
+            float Taxof13 = subTotal * 0.13f;
+            Console.WriteLine("Tax (13%): $"+Taxof13);
+
+            float = (float) subTotal + Taxof13;
+            Console.WriteLine("Total cost: $"+ );
 
         }
         catch(Exception e){
