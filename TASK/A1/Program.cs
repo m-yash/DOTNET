@@ -1,5 +1,4 @@
-﻿
-// See https://aka.m    s/new-console-template for more information
+﻿// See https://aka.m    s/new-console-template for more information
 namespace Assignment1;
 
 class Program
@@ -88,7 +87,7 @@ class Program
                     }
                     else
                     {
-                        Console.WriteLine("Please enter yes or no for loyalty card!\n");
+                        Console.WriteLine("Unknown error!\n");
                     }
                 }
                 catch (Exception e)
