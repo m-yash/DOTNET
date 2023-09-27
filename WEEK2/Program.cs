@@ -1,4 +1,10 @@
-﻿namespace Week2;
+﻿// If else
+// Switch
+// Enums
+// While
+// Do while
+
+namespace Week2;
 
 class Program
 {

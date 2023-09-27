@@ -1,4 +1,10 @@
-﻿// // See https://aka.m    s/new-console-template for more information
+﻿// basic
+// User input
+// Operator
+// Type casting
+// Exception handling
+
+// // See https://aka.m    s/new-console-template for more information
 // namespace Week1;
 
 // class Program

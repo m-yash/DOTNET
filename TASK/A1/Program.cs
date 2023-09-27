@@ -7,6 +7,7 @@ class Program
     {
         bool looper = true;
 
+        // While loop for loyalty error handling
         while (looper)
         {
             Console.WriteLine("Do you have a loyalty card? (yes/no)");
@@ -14,6 +15,7 @@ class Program
 
             if (loyalty == "yes" || loyalty == "no")
             {
+                // try for item error handling 
                 try
                 {
                     Console.WriteLine("\nAvailable Grocery Items: \nApple - $1.00 \nBanana - $0.50 \nMilk - $2.50 \nBread - $2.00 \nEggs - $1.75\n");

@@ -1,4 +1,4 @@
-﻿// See https://aka.m    s/new-console-template for more information
+﻿// Calculator
 namespace Week3;
 
 class Program
