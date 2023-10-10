@@ -1,0 +1,229 @@
+Description 
+
+ 
+
+Create a C# Console application that is a reservation system for a car rental company. The company provides services for three different types of customers: Regular, Premium, and VIP. 
+
+ 
+
+Business Logic 
+
+ 
+
+Each customer has the following information recorded about them: 
+
+ 
+
+- Customer ID (6-digit alphanumeric code) 
+
+- Name 
+
+- Phone Number 
+
+- Customer Type (Regular, Premium, VIP) – Customer Types should be program constants, where Regular is 0, Premium is 1 and VIP is 2 
+
+ 
+
+The company offers the following car rental services to all customers: 
+
+ 
+
+- Economy Car Rental - $29.99/day 
+
+- Standard Car Rental - $49.99/day 
+
+- Luxury Car Rental - $79.99/day 
+
+ 
+
+The company also offers one additional service depending on the customer type: 
+
+ 
+
+- Regular - GPS Navigation - $9.99/day 
+
+- Premium - Child Car Seat - $14.99/day 
+
+- VIP - Chauffeur Service - $99.99/day 
+
+ 
+
+Program 
+
+ 
+
+Create a menu with 4 (four) menu options: 
+
+ 
+
+1. Create a reservation 
+
+- Enter customer information (customer ID, name, phone number and customer type – using the according customer type constant number). 
+
+- Choose the car type from the available options. The options should include prices. 
+
+- Choose if the customer wants the available additional service (also showing the price), using a yes/no input. 
+
+ 
+
+2. List all Reservations 
+
+   - Display each customer and all their information, including the services they want. The customer ID should be displayed with the first three characters replaced by Xs (e.g., XXX999). 
+
+   - Display the total price. 
+
+ 
+
+3. Clear All Reservations 
+
+ 
+
+4. Exit the program 
+
+ 
+
+ 
+
+Example Input and Output: 
+
+(What the user is expected to input will be in bold) 
+
+ 
+
+Choose an option below: 
+
+Create a reservation 
+
+List all reservations 
+
+Clear all reservations 
+
+Exit the program 
+
+ 
+
+1 
+
+ 
+
+Enter customer information: 
+
+Customer ID: ABC123 
+
+Name: John Doe 
+
+Phone Number: 123-456-7890 
+
+Customer Type: 1 
+
+ 
+
+Choose the number corresponding to the car type the customer wants: 
+
+Economy - $29.99/day 
+
+Standard - $49.99/day 
+
+Luxury - $79.99/day 
+
+ 
+
+2 
+
+ 
+
+Does the customer want this additional service? 
+
+Child Car Seat - $14.99/day  
+
+ 
+
+Yes 
+
+ 
+
+Thank you! The reservation was successful. 
+
+ 
+
+------------------------------------------------- 
+
+ 
+
+Another example: 
+
+ 
+
+Choose an option below: 
+
+1. Create a reservation 
+
+2. List all reservations 
+
+3. Clear all reservations 
+
+4. Exit the program 
+
+ 
+
+2 
+
+ 
+
+Reservation 1: 
+
+Customer ID: XXX123 
+
+Name: John Doe 
+
+Phone Number: 123-456-7890 
+
+Customer Type: 1 
+
+Car Type: Standard 
+
+Additional Service: Child Car Seat 
+
+ 
+
+------------------------------------------------- 
+
+ 
+
+The MINIMUM requirements for this program are as follows (but not limited to): 
+
+ 
+
+- Appropriate class structure with all properties and methods placed in the proper classes. 
+
+- A list of Services and Reservations MUST be used. 
+
+- One instance of inheritance must be used. 
+
+- One instance of an interface must be used. 
+
+- "Hardcode" 3 customers, so that when you start your program, add them to the first 3 slots of the reservation list. The first customer must be you. 
+
+ 
+
+Submission 
+
+ 
+
+A single compressed (.zip format) archive file containing the entire project folder for the program. 
+
+ 
+
+Reminder; DO NOT CHEAT 
+
+ 
+
+It will be tempting to work on this with a friend. Do not do that. I will find out. You will get zero and receive a misconduct in the course. There are several hundred different ways to write this program. It will be almost impossible to have similar code to anyone else in this course if you wrote it yourself. 
+
+ 
+
+This is your only warning. 
+
+Due on Oct 15, 2023 11:59 PM
+Available on Oct 5, 2023 12:01 AM. Access restricted before availability starts.
+Available until Oct 15, 2023 11:59 PM. Access restricted after availability ends.

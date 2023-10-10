@@ -1,0 +1,15 @@
+D:\College\Projects\DOTNET\Team\Team2\obj\Debug\net7.0\Team2.csproj.AssemblyReference.cache
+D:\College\Projects\DOTNET\Team\Team2\obj\Debug\net7.0\Team2.GeneratedMSBuildEditorConfig.editorconfig
+D:\College\Projects\DOTNET\Team\Team2\obj\Debug\net7.0\Team2.AssemblyInfoInputs.cache
+D:\College\Projects\DOTNET\Team\Team2\obj\Debug\net7.0\Team2.AssemblyInfo.cs
+D:\College\Projects\DOTNET\Team\Team2\obj\Debug\net7.0\Team2.csproj.CoreCompileInputs.cache
+D:\College\Projects\DOTNET\Team\Team2\bin\Debug\net7.0\Team2.exe
+D:\College\Projects\DOTNET\Team\Team2\bin\Debug\net7.0\Team2.deps.json
+D:\College\Projects\DOTNET\Team\Team2\bin\Debug\net7.0\Team2.runtimeconfig.json
+D:\College\Projects\DOTNET\Team\Team2\bin\Debug\net7.0\Team2.dll
+D:\College\Projects\DOTNET\Team\Team2\bin\Debug\net7.0\Team2.pdb
+D:\College\Projects\DOTNET\Team\Team2\obj\Debug\net7.0\Team2.dll
+D:\College\Projects\DOTNET\Team\Team2\obj\Debug\net7.0\refint\Team2.dll
+D:\College\Projects\DOTNET\Team\Team2\obj\Debug\net7.0\Team2.pdb
+D:\College\Projects\DOTNET\Team\Team2\obj\Debug\net7.0\Team2.genruntimeconfig.cache
+D:\College\Projects\DOTNET\Team\Team2\obj\Debug\net7.0\ref\Team2.dll

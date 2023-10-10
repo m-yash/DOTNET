@@ -1,0 +1,8 @@
+patient class (customer)
+-> name, disease
+
+
+displayorder (details)
+-> same
+
+

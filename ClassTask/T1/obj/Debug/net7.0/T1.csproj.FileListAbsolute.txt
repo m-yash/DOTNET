@@ -1,0 +1,15 @@
+D:\College\Projects\DOTNET\ClassTask\T1\obj\Debug\net7.0\T1.csproj.AssemblyReference.cache
+D:\College\Projects\DOTNET\ClassTask\T1\obj\Debug\net7.0\T1.GeneratedMSBuildEditorConfig.editorconfig
+D:\College\Projects\DOTNET\ClassTask\T1\obj\Debug\net7.0\T1.AssemblyInfoInputs.cache
+D:\College\Projects\DOTNET\ClassTask\T1\obj\Debug\net7.0\T1.AssemblyInfo.cs
+D:\College\Projects\DOTNET\ClassTask\T1\obj\Debug\net7.0\T1.csproj.CoreCompileInputs.cache
+D:\College\Projects\DOTNET\ClassTask\T1\bin\Debug\net7.0\T1.exe
+D:\College\Projects\DOTNET\ClassTask\T1\bin\Debug\net7.0\T1.deps.json
+D:\College\Projects\DOTNET\ClassTask\T1\bin\Debug\net7.0\T1.runtimeconfig.json
+D:\College\Projects\DOTNET\ClassTask\T1\bin\Debug\net7.0\T1.dll
+D:\College\Projects\DOTNET\ClassTask\T1\bin\Debug\net7.0\T1.pdb
+D:\College\Projects\DOTNET\ClassTask\T1\obj\Debug\net7.0\T1.dll
+D:\College\Projects\DOTNET\ClassTask\T1\obj\Debug\net7.0\refint\T1.dll
+D:\College\Projects\DOTNET\ClassTask\T1\obj\Debug\net7.0\T1.pdb
+D:\College\Projects\DOTNET\ClassTask\T1\obj\Debug\net7.0\T1.genruntimeconfig.cache
+D:\College\Projects\DOTNET\ClassTask\T1\obj\Debug\net7.0\ref\T1.dll
