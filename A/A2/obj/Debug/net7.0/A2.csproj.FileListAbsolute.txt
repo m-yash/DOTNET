@@ -1,0 +1,15 @@
+D:\College\Projects\DOTNET\A\A2\bin\Debug\net7.0\A2.exe
+D:\College\Projects\DOTNET\A\A2\bin\Debug\net7.0\A2.deps.json
+D:\College\Projects\DOTNET\A\A2\bin\Debug\net7.0\A2.runtimeconfig.json
+D:\College\Projects\DOTNET\A\A2\bin\Debug\net7.0\A2.dll
+D:\College\Projects\DOTNET\A\A2\bin\Debug\net7.0\A2.pdb
+D:\College\Projects\DOTNET\A\A2\obj\Debug\net7.0\A2.csproj.AssemblyReference.cache
+D:\College\Projects\DOTNET\A\A2\obj\Debug\net7.0\A2.GeneratedMSBuildEditorConfig.editorconfig
+D:\College\Projects\DOTNET\A\A2\obj\Debug\net7.0\A2.AssemblyInfoInputs.cache
+D:\College\Projects\DOTNET\A\A2\obj\Debug\net7.0\A2.AssemblyInfo.cs
+D:\College\Projects\DOTNET\A\A2\obj\Debug\net7.0\A2.csproj.CoreCompileInputs.cache
+D:\College\Projects\DOTNET\A\A2\obj\Debug\net7.0\A2.dll
+D:\College\Projects\DOTNET\A\A2\obj\Debug\net7.0\refint\A2.dll
+D:\College\Projects\DOTNET\A\A2\obj\Debug\net7.0\A2.pdb
+D:\College\Projects\DOTNET\A\A2\obj\Debug\net7.0\A2.genruntimeconfig.cache
+D:\College\Projects\DOTNET\A\A2\obj\Debug\net7.0\ref\A2.dll

@@ -7,7 +7,7 @@ class Program
         Customer yash = new Customer();
         yash.name = "Yash";
 
-        Customer ash = new Customer();
+            Customer ash = new Customer();
         ash.name = "Ash";
 
         Product phone = new Product();

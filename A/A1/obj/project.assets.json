@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\College\\Projects\\DOTNET\\TASK\\A1\\A1.csproj",
+      "projectUniqueName": "D:\\College\\Projects\\DOTNET\\A\\A1\\A1.csproj",
       "projectName": "A1",
-      "projectPath": "D:\\College\\Projects\\DOTNET\\TASK\\A1\\A1.csproj",
+      "projectPath": "D:\\College\\Projects\\DOTNET\\A\\A1\\A1.csproj",
       "packagesPath": "C:\\Users\\Yash\\.nuget\\packages\\",
-      "outputPath": "D:\\College\\Projects\\DOTNET\\TASK\\A1\\obj\\",
+      "outputPath": "D:\\College\\Projects\\DOTNET\\A\\A1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Yash\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -11,7 +11,7 @@ class Program
         while (looper)
         {
             Console.WriteLine("Do you have a loyalty card? (yes/no)");
-            string loyalty = Console.ReadLine();
+            var loyalty = Console.ReadLine();
 
             if (loyalty == "yes" || loyalty == "no")
             {

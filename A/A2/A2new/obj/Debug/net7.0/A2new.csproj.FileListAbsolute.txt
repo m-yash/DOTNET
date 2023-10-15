@@ -1,0 +1,15 @@
+D:\College\Projects\DOTNET\A\A2\A2new\obj\Debug\net7.0\A2new.csproj.AssemblyReference.cache
+D:\College\Projects\DOTNET\A\A2\A2new\obj\Debug\net7.0\A2new.GeneratedMSBuildEditorConfig.editorconfig
+D:\College\Projects\DOTNET\A\A2\A2new\obj\Debug\net7.0\A2new.AssemblyInfoInputs.cache
+D:\College\Projects\DOTNET\A\A2\A2new\obj\Debug\net7.0\A2new.AssemblyInfo.cs
+D:\College\Projects\DOTNET\A\A2\A2new\obj\Debug\net7.0\A2new.csproj.CoreCompileInputs.cache
+D:\College\Projects\DOTNET\A\A2\A2new\bin\Debug\net7.0\A2new.exe
+D:\College\Projects\DOTNET\A\A2\A2new\bin\Debug\net7.0\A2new.deps.json
+D:\College\Projects\DOTNET\A\A2\A2new\bin\Debug\net7.0\A2new.runtimeconfig.json
+D:\College\Projects\DOTNET\A\A2\A2new\bin\Debug\net7.0\A2new.dll
+D:\College\Projects\DOTNET\A\A2\A2new\bin\Debug\net7.0\A2new.pdb
+D:\College\Projects\DOTNET\A\A2\A2new\obj\Debug\net7.0\A2new.dll
+D:\College\Projects\DOTNET\A\A2\A2new\obj\Debug\net7.0\refint\A2new.dll
+D:\College\Projects\DOTNET\A\A2\A2new\obj\Debug\net7.0\A2new.pdb
+D:\College\Projects\DOTNET\A\A2\A2new\obj\Debug\net7.0\A2new.genruntimeconfig.cache
+D:\College\Projects\DOTNET\A\A2\A2new\obj\Debug\net7.0\ref\A2new.dll
