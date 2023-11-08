@@ -15,6 +15,7 @@ class Program
         l.draw();        
         
         Rectangle r = new Rectangle();
+        
         r.draw();
         r.getArea();
         

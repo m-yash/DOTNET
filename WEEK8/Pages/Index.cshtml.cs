@@ -14,6 +14,7 @@ public class IndexModel : PageModel
 
     public List<string> weeks = new List<string>();
     
+    public Book book;
 
     public IndexModel(ILogger<IndexModel> logger)
     {
@@ -23,12 +24,12 @@ public class IndexModel : PageModel
     public void OnGet()
     {
         
-        Console.WriteLine("true or false?");
-        x = Console.ReadLine() ?? string.Empty;
-        LoginCheck = bool.Parse(x);
+        // Console.WriteLine("true or false?");
+        // x = Console.ReadLine() ?? string.Empty;
+        // LoginCheck = bool.Parse(x);
         // name = "yy" ?? string.Empty;
         // Console.WriteLine(name);
-
+        
         weeks.Add("Monday");
         weeks.Add("Tuesday");
         weeks.Add("Wednesday");
@@ -36,5 +37,20 @@ public class IndexModel : PageModel
         weeks.Add("Friday");
         weeks.Add("Saturday");
         weeks.Add("Sunday");
+    }
+
+    public IActionResult OnPost(Book book)
+    {
+        Console.WriteLine(book.ToString());
+        return RedirectToPage("Confirmation", book);
+    }
+}
+
+public class Book{
+    public string BookName {get; set;}
+    public string BookAuthor {get; set;}
+
+    public string  ToString(){
+        return string.Format("Book Name: {0}, Book Author: {1}", BookName, BookAuthor);
     }
 }

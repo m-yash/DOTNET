@@ -13,3 +13,18 @@ D:\College\Projects\DOTNET\midterm\obj\Debug\net7.0\refint\midterm.dll
 D:\College\Projects\DOTNET\midterm\obj\Debug\net7.0\midterm.pdb
 D:\College\Projects\DOTNET\midterm\obj\Debug\net7.0\midterm.genruntimeconfig.cache
 D:\College\Projects\DOTNET\midterm\obj\Debug\net7.0\ref\midterm.dll
+D:\College\Projects\DOTNET\WEEK7 midterm\bin\Debug\net7.0\midterm.exe
+D:\College\Projects\DOTNET\WEEK7 midterm\bin\Debug\net7.0\midterm.deps.json
+D:\College\Projects\DOTNET\WEEK7 midterm\bin\Debug\net7.0\midterm.runtimeconfig.json
+D:\College\Projects\DOTNET\WEEK7 midterm\bin\Debug\net7.0\midterm.dll
+D:\College\Projects\DOTNET\WEEK7 midterm\bin\Debug\net7.0\midterm.pdb
+D:\College\Projects\DOTNET\WEEK7 midterm\obj\Debug\net7.0\midterm.csproj.AssemblyReference.cache
+D:\College\Projects\DOTNET\WEEK7 midterm\obj\Debug\net7.0\midterm.GeneratedMSBuildEditorConfig.editorconfig
+D:\College\Projects\DOTNET\WEEK7 midterm\obj\Debug\net7.0\midterm.AssemblyInfoInputs.cache
+D:\College\Projects\DOTNET\WEEK7 midterm\obj\Debug\net7.0\midterm.AssemblyInfo.cs
+D:\College\Projects\DOTNET\WEEK7 midterm\obj\Debug\net7.0\midterm.csproj.CoreCompileInputs.cache
+D:\College\Projects\DOTNET\WEEK7 midterm\obj\Debug\net7.0\midterm.dll
+D:\College\Projects\DOTNET\WEEK7 midterm\obj\Debug\net7.0\refint\midterm.dll
+D:\College\Projects\DOTNET\WEEK7 midterm\obj\Debug\net7.0\midterm.pdb
+D:\College\Projects\DOTNET\WEEK7 midterm\obj\Debug\net7.0\midterm.genruntimeconfig.cache
+D:\College\Projects\DOTNET\WEEK7 midterm\obj\Debug\net7.0\ref\midterm.dll

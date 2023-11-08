@@ -22,6 +22,7 @@ class Program
 
         while (looper)
         {
+            
             Console.WriteLine("Choose an option below:\n1.Add a new Item to the inventory\n2.Display all books\n3.Delete an individual item from the inventory\n4.Clear Inventory\n5.Exit the program.");
             var path = int.Parse(Console.ReadLine() ?? string.Empty);
 
@@ -33,6 +34,7 @@ class Program
                 {
                     Console.WriteLine("Enter Book Name");
                     string BookNameInput = Console.ReadLine() ?? string.Empty;
+                    
 
                     Console.WriteLine("Enter Quantity in Stock:");
                     int BookQtyInStockInput = int.Parse(Console.ReadLine() ?? string.Empty);

@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\College\Projects\DOTNET\WEEK8
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/College/Projects/DOTNET/WEEK8/Pages/Confirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uZmlybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/College/Projects/DOTNET/WEEK8/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
