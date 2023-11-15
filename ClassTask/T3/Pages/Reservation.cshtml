@@ -1,0 +1,25 @@
+@page
+@model ReservationModel
+@{
+    ViewData["Title"] = "Reservation page";
+}
+
+
+<div class="text-left">
+    <form method="post">
+        <div class="form-group">
+            <label for="cartype">Car Type</label>
+            <input asp-for="reserve.CarType" class="form-control" id="cartype"  placeholder="Enter Car Type"></input>
+        </div>
+        <div class="form-group">
+            <label for="fromdate">From Date</label>
+            <input asp-for="reserve.FromDate" class="form-control" id="fromdate" placeholder="Enter From Date"></input>
+        </div>
+        <div class="form-group">
+            <label for="todate">To Date</label>
+            <input asp-for="reserve.ToDate" class="form-control" id="todate" placeholder="Enter To Date"></input>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>

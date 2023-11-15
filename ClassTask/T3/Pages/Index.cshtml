@@ -5,6 +5,22 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Car Reservation</h1>
+    <p>Rent a Car.</a>.</p>
+
+
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">@Model.Name</h5>
+            <h6 class="card-subtitle mb-2 text-muted">@Model.Address</h6>
+            <p class="card-text">Premium Japanese Car.</p>
+            <a href="@Model.Website" target="_blank" class="card-link">Check Now</a>
+            <a href="tel:@Model.PhoneNo" target="_blank" class="card-link">Call us for details</a>
+            <form method="post">
+                <button type="submit" class="btn btn-primary">Reserve</button>
+            </form>
+            
+        </div>
+    </div>
+
 </div>

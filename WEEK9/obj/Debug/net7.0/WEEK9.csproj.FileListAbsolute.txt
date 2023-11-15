@@ -1,0 +1,17 @@
+D:\College\Projects\DOTNET\WEEK9\bin\Debug\net7.0\WEEK9.exe
+D:\College\Projects\DOTNET\WEEK9\bin\Debug\net7.0\WEEK9.deps.json
+D:\College\Projects\DOTNET\WEEK9\bin\Debug\net7.0\WEEK9.runtimeconfig.json
+D:\College\Projects\DOTNET\WEEK9\bin\Debug\net7.0\WEEK9.dll
+D:\College\Projects\DOTNET\WEEK9\bin\Debug\net7.0\WEEK9.pdb
+D:\College\Projects\DOTNET\WEEK9\obj\Debug\net7.0\WEEK9.csproj.AssemblyReference.cache
+D:\College\Projects\DOTNET\WEEK9\obj\Debug\net7.0\WEEK9.GeneratedMSBuildEditorConfig.editorconfig
+D:\College\Projects\DOTNET\WEEK9\obj\Debug\net7.0\WEEK9.AssemblyInfoInputs.cache
+D:\College\Projects\DOTNET\WEEK9\obj\Debug\net7.0\WEEK9.AssemblyInfo.cs
+D:\College\Projects\DOTNET\WEEK9\obj\Debug\net7.0\WEEK9.csproj.CoreCompileInputs.cache
+D:\College\Projects\DOTNET\WEEK9\obj\Debug\net7.0\WEEK9.dll
+D:\College\Projects\DOTNET\WEEK9\obj\Debug\net7.0\refint\WEEK9.dll
+D:\College\Projects\DOTNET\WEEK9\obj\Debug\net7.0\WEEK9.pdb
+D:\College\Projects\DOTNET\WEEK9\obj\Debug\net7.0\WEEK9.genruntimeconfig.cache
+D:\College\Projects\DOTNET\WEEK9\obj\Debug\net7.0\ref\WEEK9.dll
+D:\College\Projects\DOTNET\WEEK9\bin\Debug\net7.0\CsvHelper.dll
+D:\College\Projects\DOTNET\WEEK9\obj\Debug\net7.0\WEEK9.csproj.CopyComplete

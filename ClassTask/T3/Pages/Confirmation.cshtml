@@ -1,0 +1,11 @@
+@page
+@model ConfirmationModel
+@* @model Tuple<ConfirmationModel,IndexModel> *@
+@{
+    ViewData["Title"] = "Confirm page";
+}
+
+<p class="text-success">Successfully saved</p>
+
+<p>You Reserved @Model.reserve.CarType</p>
+@* <p>Author Name @Model.book.BookAuthor</p> *@

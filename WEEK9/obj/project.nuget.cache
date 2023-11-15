@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "nCqRmLfE3qLgFiUtBafC6rhdoL9kSTPBu/IW37ZkRv/ot5F+JwRF5C9K6g4AUSGPbswZr+tDkOwaaHNoz5zXoQ==",
+  "success": true,
+  "projectFilePath": "D:\\College\\Projects\\DOTNET\\WEEK9\\WEEK9.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Yash\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
