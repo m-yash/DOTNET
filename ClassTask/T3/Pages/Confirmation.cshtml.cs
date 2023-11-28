@@ -8,7 +8,7 @@ public class ConfirmationModel : PageModel
 
     private readonly ILogger<ConfirmationModel> _logger;
 
-    public Reservation reserve;
+    public Reservation? reserve;
     public ConfirmationModel(ILogger<ConfirmationModel> logger)
     {
         _logger = logger;
@@ -17,5 +17,11 @@ public class ConfirmationModel : PageModel
     public void OnGet(Reservation _reserve)
     {
         reserve = _reserve;
+    }
+
+    public IActionResult OnPost()
+    {
+        // Page Redirection
+        return RedirectToPage("Index");
     }
 }

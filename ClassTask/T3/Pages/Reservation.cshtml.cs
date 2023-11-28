@@ -7,7 +7,9 @@ public class ReservationModel : PageModel
 {
     private readonly ILogger<ReservationModel> _logger;
     
-    public Reservation reserve;
+    public Reservation reserve = new Reservation();
+
+    public List<Car> Cars { get; set; }  = new List<Car>();
 
     public ReservationModel(ILogger<ReservationModel> logger)
     {
@@ -16,25 +18,38 @@ public class ReservationModel : PageModel
 
     public void OnGet()
     {
-        
+        Cars = new List<Car>
+        {
+            new Car { Model = "Nissan", Name = "R34 Skyline" },
+            new Car { Model = "Lamborghini", Name = "Murcielago" },
+            new Car { Model = "Koenigsegg", Name = "Agera RS" },
+            new Car { Model = "Tesla", Name = "Model S" }
+        };
     }
 
     public IActionResult OnPost(Reservation reserve)
     {
         Console.WriteLine(reserve.ToString());
+
+        // Page Redirection
         return RedirectToPage("Confirmation", reserve);
     }
 }
 
 
+// Class
 public class Reservation{
-    public string CarType {get; set;}
-    public string FromDate {get; set;}
-    public string ToDate {get; set;}
-
-
-    public string ToString(){
-        // return string.Format("Book Name: {0}, Book Author: {1}", BookName, BookAuthor);
-        return $"Cartype: {CarType}, From Date: {FromDate}, To Date: {ToDate}";
+    public string CarName {get; set;} = string.Empty;
+    public string UserName {get; set;} = string.Empty;
+    public string UserMobileNumber {get; set;} = string.Empty;
+    public string UserReservationDateTime {get; set;} = string.Empty;
+    
+    public override string ToString(){
+        return $"CarName: {CarName} UserName: {UserName}, Mobile Number: {UserMobileNumber}, Reservation Date: {UserReservationDateTime}";
     }
 }
+public class Car
+    {
+        public string Model { get; set; } = string.Empty;
+        public string Name { get; set; } = string.Empty;
+    }

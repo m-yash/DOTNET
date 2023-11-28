@@ -5,7 +5,34 @@
     ViewData["Title"] = "Confirm page";
 }
 
-<p class="text-success">Successfully saved</p>
+<p class="text-success">Car Successfully Reserved</p>
 
-<p>You Reserved @Model.reserve.CarType</p>
-@* <p>Author Name @Model.book.BookAuthor</p> *@
+@* Error Handling *@
+@if (Model.reserve != null)
+{
+    <div class="card text-white bg-success mb-5">
+        <div class="card-header">Your Reservation Details</div>
+        <div class="card-body">
+            <h5 class="card-title">
+                @Model.reserve.CarName
+            </h5>
+            <p class="card-text">
+                Name : @Model.reserve.UserName <br>
+                Contact : @Model.reserve.UserMobileNumber <br>
+                @{
+                    var formattedUserReservationDateTime = DateTime.Parse(@Model.reserve.UserReservationDateTime).ToString("g");
+                }
+                Reservation Time : @formattedUserReservationDateTime
+            </p>
+        </div>
+    </div>
+    <div>
+        <form method="post" class="d-flex justify-content-center">
+            <button type="submit" class="btn btn-link">Go Home</button>
+        </form>
+    </div>
+}
+else
+{
+    <p class="text-danger">Error showing data, try again!</p>
+}

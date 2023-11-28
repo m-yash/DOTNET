@@ -6,18 +6,29 @@
 
 
 <div class="text-left">
+    @* Form for User's Input *@
     <form method="post">
         <div class="form-group">
-            <label for="cartype">Car Type</label>
-            <input asp-for="reserve.CarType" class="form-control" id="cartype"  placeholder="Enter Car Type"></input>
+            <label for="carTypeDropdown">Select Car</label>
+            <select asp-for="reserve.CarName" class="form-select" id="carTypeDropdown" aria-label="Default select example" required>
+                @foreach (var car in Model.Cars) { 
+                    <option value="@car.Model @car.Name">@car.Model @car.Name </option>
+                 }
+            </select>
+            <br>
+            
+            <label for="UserName">Enter Your Full Name</label>
+            <input asp-for="reserve.UserName" class="form-control" id="UserName" placeholder="Enter Full Name" required></input><br>
         </div>
+
         <div class="form-group">
-            <label for="fromdate">From Date</label>
-            <input asp-for="reserve.FromDate" class="form-control" id="fromdate" placeholder="Enter From Date"></input>
+            <label for="UserMobileNumber">Enter a phone number: (use this format: ***-***-**** (hyphen included))</label><br>
+            <input asp-for="reserve.UserMobileNumber" class="form-control" type="tel" id="UserMobileNumber"  placeholder="123-455-6789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
         </div>
+        
         <div class="form-group">
-            <label for="todate">To Date</label>
-            <input asp-for="reserve.ToDate" class="form-control" id="todate" placeholder="Enter To Date"></input>
+            <label for="UserReservationDateTime">Select Reservation Date/Time</label>
+            <input type="datetime-local" asp-for="reserve.UserReservationDateTime" class="form-control" id="UserReservationDateTime" required></input><br>
         </div>
 
         <button type="submit" class="btn btn-primary">Submit</button>

@@ -1,5 +1,6 @@
 ﻿using System.Globalization;
 using CsvHelper;
+using Newtonsoft.Json;
 
 namespace Week9;
 
@@ -11,21 +12,48 @@ class Program
 
         List<Student> students = new List<Student>(){
             new Student("123", "John"),
-           new Student("345", "Jame"),
-           new Student("567", "Max"),
-           new Student("789", "Nick"),
+            new Student("345", "Jame"),
+            new Student("567", "Max"),
+            new Student("789", "Nick"),
         };
 
         //Write to txt file
-        WriteToTxtFile("students.txt", students);
+        // WriteToTxtFile("students.txt", students);
 
         // Read from text file
-        ReadFromTxtFile("students.txt");
+        // ReadFromTxtFile("students.txt");
 
-        WriteToCSVFile("students.csv", students);
+        // WriteToCSVFile("students.csv", students);
 
-        ReadFromCSVFile("students.csv");
+        // ReadFromCSVFile("students.csv");
+
+        WriteToJSONFile("students.json", students);
+
+        ReadFromJSONFile("students.json");
     }
+
+    private static void WriteToJSONFile(string file, List<Student> students)
+    {
+        Console.WriteLine("Writing to JSON file");
+        string json = JsonConvert.SerializeObject(students, Formatting.Indented);
+        File.WriteAllText(file,json);
+        Console.WriteLine(json);
+        
+    }
+
+    private static void ReadFromJSONFile(string file)
+    {
+        Console.WriteLine("Reading from JSON file");
+        string json = File.ReadAllText(file);
+
+        List<Student> students = JsonConvert.DeserializeObject<List<Student>>(json);
+
+        foreach (var student in students)
+        {
+            Console.WriteLine(student);
+        }
+    }
+    
 
     private static void ReadFromCSVFile(string file)
     {

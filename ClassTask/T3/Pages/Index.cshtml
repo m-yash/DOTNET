@@ -5,22 +5,44 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Car Reservation</h1>
-    <p>Rent a Car.</a>.</p>
+    <h1 class="display-4">Yash Mistry's Car Rentals</h1>
+    <p>Mob no: +1 (911) 619 6199, Address: Kyoto St, Waterloo, ON, N2L 3V8</a>.</p>
 
-
-    <div class="card" style="width: 18rem;">
-        <div class="card-body">
-            <h5 class="card-title">@Model.Name</h5>
-            <h6 class="card-subtitle mb-2 text-muted">@Model.Address</h6>
-            <p class="card-text">Premium Japanese Car.</p>
-            <a href="@Model.Website" target="_blank" class="card-link">Check Now</a>
-            <a href="tel:@Model.PhoneNo" target="_blank" class="card-link">Call us for details</a>
-            <form method="post">
-                <button type="submit" class="btn btn-primary">Reserve</button>
-            </form>
-            
+    @* Car list in flex-box *@
+    <div class="d-flex justify-content-around">
+        <div class="card ">
+            <div class="card-body">
+                <h5 class="card-title">@Model.car1_Name</h5>
+                <h6 class="card-subtitle mb-2 text-muted">@Model.car1_Model</h6>
+                <a href="@Model.car1_Website" target="_blank" class="card-link">Check Now</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">@Model.car2_Name</h5>
+                <h6 class="card-subtitle mb-2 text-muted">@Model.car2_Model</h6>
+                <a href="@Model.car2_Website" target="_blank" class="card-link">Check Now</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">@Model.car3_Name</h5>
+                <h6 class="card-subtitle mb-2 text-muted">@Model.car3_Model</h6>
+                <a href="@Model.car3_Website" target="_blank" class="card-link">Check Now</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">@Model.car4_Name</h5>
+                <h6 class="card-subtitle mb-2 text-muted">@Model.car4_Model</h6>
+                <a href="@Model.car4_Website" target="_blank" class="card-link">Check Now</a>
+            </div>
         </div>
     </div>
-
+    <br><br><br>
+    <div>
+        <form method="post" class="d-flex justify-content-center">
+            <button type="submit" class="btn btn-primary">Reserve a Car</button>
+        </form>
+    </div>
 </div>

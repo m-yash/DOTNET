@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "nCqRmLfE3qLgFiUtBafC6rhdoL9kSTPBu/IW37ZkRv/ot5F+JwRF5C9K6g4AUSGPbswZr+tDkOwaaHNoz5zXoQ==",
+  "dgSpecHash": "Kvg34yeqyxxzWMiBvsdcF18QB9phd/We3qhje+h7BqJ89vWqkNWas+SQnHFd7duKjvA8ppPVQUcWHmlBLUIGSg==",
   "success": true,
   "projectFilePath": "D:\\College\\Projects\\DOTNET\\WEEK9\\WEEK9.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Yash\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512"
+    "C:\\Users\\Yash\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
+    "C:\\Users\\Yash\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }
