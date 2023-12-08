@@ -1,14 +1,8 @@
 [
   {
-    "CarType": "sport",
-    "DateFrom": "1",
-    "DateTo": "5",
+    "CarType": "slow",
+    "DateFrom": "23",
+    "DateTo": "24",
     "PassengerName": "yash"
-  },
-  {
-    "CarType": "suv",
-    "DateFrom": "2",
-    "DateTo": "7",
-    "PassengerName": "yash2"
   }
 ]

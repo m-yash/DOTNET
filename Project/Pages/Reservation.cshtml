@@ -1,0 +1,43 @@
+@page
+@model ReservationModel
+@{
+    ViewData["Title"] = "Reservation page";
+}
+
+
+<div class="text-left">
+    @* Form for User's Input *@
+    <form method="post">
+        <div class="form-group">
+            <label for="carTypeDropdown">Select Car</label>
+            <select asp-for="reserve.CarName" class="form-select" id="carTypeDropdown" aria-label="Default select example" required>
+                @* Error handling: if all cars are reserved *@
+                @if (Model.cars.Count == 0){
+                    <option disabled>No car available</option>
+                }
+                else{
+                    @foreach (var car in Model.cars) { 
+                    <option value="@car.car_Name">@car.car_Model @car.car_Name </option>
+                 }
+                }
+                
+            </select>
+            <br>
+            
+            <label for="UserName">Enter Your Full Name</label>
+            <input asp-for="reserve.UserName" class="form-control" id="UserName" placeholder="Enter Full Name" required></input><br>
+        </div>
+
+        <div class="form-group">
+            <label for="UserMobileNumber">Enter a phone number: (use this format: ***-***-**** (hyphen included))</label><br>
+            <input asp-for="reserve.UserMobileNumber" class="form-control" type="tel" id="UserMobileNumber"  placeholder="123-455-6789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+        </div>
+        
+        <div class="form-group">
+            <label for="UserReservationDateTime">Select Reservation Date/Time</label>
+            <input type="datetime-local" asp-for="reserve.UserReservationDateTime" class="form-control" id="UserReservationDateTime" required></input><br>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>

@@ -1,0 +1,35 @@
+@page
+@model ExistingReservationsModel
+@{
+    ViewData["Title"] = "Existing Reservation page";
+}
+
+<div class="text-center">
+    @* table view for existing reservation *@
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Car</th>
+                <th scope="col">User</th>
+                <th scope="col">User Mobile Number</th>
+                <th scope="col">Reservation Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var car in Model.reservationList){
+            <tr>
+                <th scope="row">@car.CarName</th>
+                <td>@car.UserName</td>
+                <td>@car.UserMobileNumber</td>
+                <td>
+                    @{
+                    var formattedUserReservationDateTime = DateTime.Parse(@car.UserReservationDateTime).ToString("g");
+                    }
+                    @formattedUserReservationDateTime
+
+                </td>
+            </tr>
+            }
+        </tbody>
+    </table>
+</div>

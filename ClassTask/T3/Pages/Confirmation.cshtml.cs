@@ -17,6 +17,7 @@ public class ConfirmationModel : PageModel
     public void OnGet(Reservation _reserve)
     {
         reserve = _reserve;
+        Console.WriteLine(reserve.CarName);
     }
 
     public IActionResult OnPost()

@@ -1,0 +1,23 @@
+@page
+@model EditModel
+@{
+    ViewData["Title"] = "Edit page";
+}
+
+<div class="container">
+    <form method="post">
+        <input type="hidden" asp-for="TODOItem.ID"/>
+        <div>
+            <label>Title</label>
+            <input asp-for="TODOItem.Title"/>
+        </div>
+        <div>
+            <label>Completed</label>
+            <input type="checkbox" asp-for="TODOItem.IsCompleted"/>
+        </div>
+        <div>
+            <input type="submit" value="Save">
+        </div>
+    </form>
+
+</div>

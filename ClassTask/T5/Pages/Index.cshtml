@@ -1,0 +1,15 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">TODO</h1>
+    @foreach (var todo in Model.todoitems){
+        <input type="checkbox">@todo.Title
+        
+    }
+
+
+</div>

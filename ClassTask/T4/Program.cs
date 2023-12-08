@@ -49,9 +49,9 @@ class Program
         // Read from text file
         // ReadFromTxtFile("students.txt");
 
-        WriteToCSVFile("ReservationList.csv", reservation);
+        // WriteToCSVFile("ReservationList.csv", reservation);
 
-        ReadFromCSVFile("ReservationList.csv");
+        // ReadFromCSVFile("ReservationList.csv");
 
         WriteToJSONFile("ReservationList.json", reservation);
 
@@ -74,6 +74,7 @@ class Program
 
         List<Car> reservation = JsonConvert.DeserializeObject<List<Car>>(json);
 
+        Console.WriteLine(reservation);
         foreach (var reserve in reservation)
         {
             Console.WriteLine(reserve);

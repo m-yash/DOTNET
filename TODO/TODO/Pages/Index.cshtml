@@ -1,0 +1,20 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="container">
+    <h1>TODO List</h1>
+
+    @foreach (var todo in Model.TODOItems)
+    {
+        <div>
+            <input type="checkbox" @(todo.IsCompleted ? "checked" : "")></input>
+            <p>@todo.Title</p>
+            <a asp-page="./EditModel" asp-route-id="@todo.ID">Edit</a>
+        </div>
+    }
+<a href="./Create">Create</a>
+
+</div>

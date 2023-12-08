@@ -1,0 +1,3 @@
+index - show data from availablecar.json
+reservation - save data in reservation.json
+reservation - redirect and pass data to confirmation

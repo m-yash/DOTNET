@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\College\\Projects\\DOTNET\\ClassTask\\T4\\T4.csproj": {}
+    "D:\\College\\Projects\\DOTNET\\ClassTask\\t4\\T4.csproj": {}
   },
   "projects": {
-    "D:\\College\\Projects\\DOTNET\\ClassTask\\T4\\T4.csproj": {
+    "D:\\College\\Projects\\DOTNET\\ClassTask\\t4\\T4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\College\\Projects\\DOTNET\\ClassTask\\T4\\T4.csproj",
+        "projectUniqueName": "D:\\College\\Projects\\DOTNET\\ClassTask\\t4\\T4.csproj",
         "projectName": "T4",
-        "projectPath": "D:\\College\\Projects\\DOTNET\\ClassTask\\T4\\T4.csproj",
+        "projectPath": "D:\\College\\Projects\\DOTNET\\ClassTask\\t4\\T4.csproj",
         "packagesPath": "C:\\Users\\Yash\\.nuget\\packages\\",
-        "outputPath": "D:\\College\\Projects\\DOTNET\\ClassTask\\T4\\obj\\",
+        "outputPath": "D:\\College\\Projects\\DOTNET\\ClassTask\\t4\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Yash\\AppData\\Roaming\\NuGet\\NuGet.Config"
