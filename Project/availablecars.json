@@ -1,59 +1,44 @@
 [
-    {
-      "car_ID": 1,
-      "car_Name": "R34 Skyline",
-      "car_Model": "Nissan",
-      "car_Website": "https://jdm-expo.com/5-nissan",
-      "car_Image": "https://cdn.iconscout.com/icon/free/png-256/free-nissan-2227466-1853260.png"
-    },
-    {
-      "car_ID": 2,
-      "car_Name": "Murcielago",
-      "car_Model": "Lamborghini",
-      "car_Website": "https://www.autotrader.ca/a/Lamborghini/Murcielago/North%20York/ON/5_59287854_20111115101047209/?loc=M3J2L4&store=20111115101047209&gad_source=1&gclid=EAIaIQobChMIs_bgsr_gggMVpzPUAR3bFwi5EAQYASABEgJtTfD_BwE",
-      "car_Image": "https://cdn.iconscout.com/icon/free/png-256/free-lamborghini-282390.png"
-    },
-    {
-      "car_ID": 3,
-      "car_Name": "Agera RS",
-      "car_Model": "Koenigsegg",
-      "car_Website": "https://luxurypulse.com/sales/show/374-koenigsegg-agera-rs",
-      "car_Image": ""
-    },
-    {
-      "car_ID": 4,
-      "car_Name": "Model S",
-      "car_Model": "Tesla",
-      "car_Website": "https://www.autotrader.ca/cars/tesla/model%20s/on/?gad_source=1&gclid=CjwKCAiA04arBhAkEiwAuNOsIv_zfQdIytcvkGiBuiZh3ayGO1jAT7Xp2rkSPcbv_iWI-YEdWH__BRoC3uUQAvD_BwE",
-      "car_Image": ""
-    },
-    {
-      "car_ID": 5,
-      "car_Name": "Chiron",
-      "car_Model": "Bugatti",
-      "car_Website": "",
-      "car_Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Bugatti_logo.svg/2560px-Bugatti_logo.svg.png"
-    },
-    {
-      "car_ID": 6,
-      "car_Name": "GT-R",
-      "car_Model": "Nissan",
-      "car_Website": "",
-      "car_Image": "https://cdn.iconscout.com/icon/free/png-256/free-nissan-2227466-1853260.png"
-    },
-    {
-      "car_ID": 7,
-      "car_Name": "Veyron",
-      "car_Model": "Bugatti",
-      "car_Website": "",
-      "car_Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Bugatti_logo.svg/2560px-Bugatti_logo.svg.png"
-    },
-    {
-      "car_ID": 9,
-      "car_Name": "i8",
-      "car_Model": "BMW",
-      "car_Website": "",
-      "car_Image": ""
-    }
-  ]
-  
+  {
+    "car_ID": 2,
+    "car_Name": "Murcielago",
+    "car_Model": "Lamborghini",
+    "car_Website": "https://www.autotrader.ca/a/Lamborghini/Murcielago/North%20York/ON/5_59287854_20111115101047209/?loc=M3J2L4&store=20111115101047209&gad_source=1&gclid=EAIaIQobChMIs_bgsr_gggMVpzPUAR3bFwi5EAQYASABEgJtTfD_BwE",
+    "car_Image": "https://cdn.iconscout.com/icon/free/png-256/free-lamborghini-282390.png"
+  },
+  {
+    "car_ID": 3,
+    "car_Name": "Agera RS",
+    "car_Model": "Koenigsegg",
+    "car_Website": "https://luxurypulse.com/sales/show/374-koenigsegg-agera-rs",
+    "car_Image": ""
+  },
+  {
+    "car_ID": 4,
+    "car_Name": "Model S",
+    "car_Model": "Tesla",
+    "car_Website": "https://www.autotrader.ca/cars/tesla/model%20s/on/?gad_source=1&gclid=CjwKCAiA04arBhAkEiwAuNOsIv_zfQdIytcvkGiBuiZh3ayGO1jAT7Xp2rkSPcbv_iWI-YEdWH__BRoC3uUQAvD_BwE",
+    "car_Image": ""
+  },
+  {
+    "car_ID": 5,
+    "car_Name": "Chiron",
+    "car_Model": "Bugatti",
+    "car_Website": "",
+    "car_Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Bugatti_logo.svg/2560px-Bugatti_logo.svg.png"
+  },
+  {
+    "car_ID": 6,
+    "car_Name": "GT-R",
+    "car_Model": "Nissan",
+    "car_Website": "",
+    "car_Image": "https://cdn.iconscout.com/icon/free/png-256/free-nissan-2227466-1853260.png"
+  },
+  {
+    "car_ID": 7,
+    "car_Name": "Veyron",
+    "car_Model": "Bugatti",
+    "car_Website": "",
+    "car_Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Bugatti_logo.svg/2560px-Bugatti_logo.svg.png"
+  }
+]

@@ -33,17 +33,7 @@ public class ReservationModel : PageModel
 
     public IActionResult OnPost(Reservation reserve)
     {
-        // Saving data to reversations.josn
-        
-        // reservationList.Add(new Reservation(CarName, UserName, UserMobileNumber, UserReservationDateTime));
 
-        // List<Reservation> tODOItems = GetTODOItemsJSON();
-        // tODOItem.ID = tODOItems.Count + 1;
-        // tODOItems.Add(tODOItem);
-
-        // string json = JsonConvert.SerializeObject(reservation, Formatting.Indented);
-        // File.WriteAllText(reservationFile, json);
-        // cardata.SaveCarDataJSON(reserve);
         Console.WriteLine(reserve.ToString());
 
         // Page Redirection
@@ -73,7 +63,7 @@ public class Reservation{
     }
     public Reservation()
     {
-        // Add any default initialization if needed
+    
     }
     public override string ToString(){
         return $"CarName: {CarName} UserName: {UserName}, Mobile Number: {UserMobileNumber}, Reservation Date: {UserReservationDateTime}";

@@ -1,0 +1,29 @@
+@page
+@model ThankYouModel
+
+@{
+    ViewData["Title"] = "Thank You page";
+}
+
+
+@* Error Handling *@
+@if (Model.eBookObject != null)
+{
+    <div class="card text-white bg-success mb-5">
+        <div class="card-header">EBook Details</div>
+        <div class="card-body">
+            <h5 class="card-title">
+                Book Name: @Model.eBookObject.BookName
+            </h5>
+            <p class="card-text">
+                File Size : @Model.eBookObject.FileSize
+            </p>
+        </div>
+    </div>
+}
+else
+{
+        <p>An Error has occured, check from below link</p>
+        <a href="/Error" class="link-underline-primary">Check Error</a>
+
+}

@@ -1,0 +1,24 @@
+@page
+@model AddEBookModel
+@{
+    ViewData["Title"] = "Add EBook page";
+}
+
+
+<div class="text-left">
+    @* Form for User's Input *@
+    <form method="post">
+        <div class="form-group"> 
+            <label for="ebook">Enter EBook Name</label>
+            <input asp-for="eBookObject.BookName" class="form-control" id="ebook" placeholder="EBook" required></input><br>
+        </div>
+
+        <div class="form-group">
+            <label for="filesize">Enter EBook File Size</label><br>
+            <input asp-for="eBookObject.FileSize" class="form-control" type="number" step=any min="0.1" id="filesize"  placeholder="FileSize" required><br><br>
+        </div>
+        
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>

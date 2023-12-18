@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\YashMistry_Q2_Book_v01.props" />
+</Project>
